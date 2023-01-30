@@ -1,0 +1,46 @@
+.header-f{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header-f img{
+width: 20rem;
+height: 4rem;
+
+}
+
+.header-menu{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    color: aliceblue;
+    padding-top: .5rem;
+    font-size: 20px;
+    font-weight: 500;
+    /* transform: translateX(10rem); */
+}
+.header-menu li:hover{
+    cursor: pointer;
+color:  rgb(230, 243, 243);
+   
+}
+/* @media screen and (max-width:600px) {
+  
+.header-menu{
+display: none;
+}
+} */
+@media screen and (max-width: 767px) {
+    .header>:nth-child(2)
+    {
+        position: fixed;
+        right: 2rem;
+        z-index: 99;
+    }
+    .header-menu{
+        flex-direction: column;
+        background-color: rgb(248, 58, 58);
+        padding: 2rem;
+    }
+}
+

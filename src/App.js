@@ -1,24 +1,38 @@
-import logo from './logo.svg';
+
 import './App.css';
+import GymFirst from './Component/GymFirst';
+import GymSecond from './Component/GymSecond';
+import Third from './Component/Third';
+import Plans from './Component/Plans';
+import Testimonial from './Component/Testimonial';
+import Fotter from './Component/Fotter';
+import F from './Component/F'
+
+
+import { motion } from "framer-motion";
 
 function App() {
+  const transition={type:'spring',durition:1}
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <motion.div
+  initial={{bottom:"100px"}}
+  whileInView={{bottom:'1px'}} 
+  className='applist'>
+
+    <F/>
+
+    <GymSecond/>
+
+    <Third/>
+    <hr/>
+    <Plans/>
+
+    <Testimonial/>
+
+    <Fotter/> 
+   </motion.div>
+
   );
 }
 

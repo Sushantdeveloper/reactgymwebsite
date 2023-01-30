@@ -1,0 +1,233 @@
+.Gym-F{
+    display:flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+}
+.Gym-L{
+    padding: 0rem;
+    background-color: rgb(92, 98, 98);
+    padding-top: 1rem;
+    flex: 3;
+}
+.Gym-R{
+ padding: .1rem;
+    flex: 1;
+ background-color: rgba(221, 5, 5, 0.88);
+}
+
+.best-add{
+    margin-left: 18rem;
+    font-size: 30px;
+    margin-top: 2rem;
+    width: fit-content;
+    padding: 20px 13px;
+    background-color: black;
+    border-radius:4rem ;
+    text-transform: uppercase;
+    color: aliceblue;
+position: relative;
+align-items: center;
+justify-content: flex-start;
+}
+
+.best-add span{
+    z-index: 2 ;
+}
+.best-add div{
+transform: translateY(-.8rem);
+    position: absolute;
+    background-color:rgba(221, 5, 5, 0.88) ;
+    width: 10rem;
+    height: 4rem;
+    left: 8px;
+    border-radius: 3rem;
+    z-index: 1;  
+   
+}
+
+
+
+/* style the main heading  */
+.main-heading{
+    text-transform: uppercase;
+    color: aliceblue;
+    font-size: 90px;
+    margin-top:.2rem ;
+    margin-left: 3rem;
+font-family:'Times New Roman', Times, serif;
+ /* text-shadow: 1rem 1rem 1rem 1rem rgba(221, 5, 5, 0.88); */
+}
+
+.h1,.h3{
+    color: transparent;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+
+
+}
+.h2{
+    margin-left: 8rem;
+   
+}
+.h3{
+    margin-left: 21rem;
+}
+.Gym-button{
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+/* style the para  */
+.Gym-para{
+    margin-top: 1.5rem;
+    font-size: 70px;
+    margin-left: 6rem;
+    color: black;
+}
+
+/* style the symbol part  */
+.Gym-symbol{
+transform: translateX(9rem);
+    display: flex;
+    
+    margin-top: 2rem;
+    gap: 7rem;
+color: white;
+font-size: 2rem;
+}
+.Gym-symbol>div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Gym-symbol>div>span:nth-of-type(1){
+    color: aliceblue;
+    font-size: 30px;
+}
+.Gym-symbol>div>span:nth-of-type(2){
+    text-transform: uppercase;
+    color: rgb(226, 220, 220);
+    font-size: 15px;
+    /* font-weight: solid; */
+}
+
+
+.Symbol-1 span,.Symbol-2 span,.Symbol-3 span{
+    display: flex;
+    flex-direction: column;
+}
+.span2{
+    color: rgb(201, 44, 44);
+    text-transform: none;
+}
+.Gym-btn{
+    margin-top: 2rem;
+  transform: translateX(8rem);
+
+}
+
+.Gym-btn button{
+margin-right: 1rem;
+border: none;
+    padding: 8px 1rem;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-size: 2rem;
+    width: 12rem;
+    background-color: rgba(221, 5, 5, 0.88);
+
+}
+.Gym-btn>:nth-child(1):hover{
+    border: solid;
+    background-color: transparent;
+}
+
+
+.Gym-btn>:nth-child(2){
+    border:  solid white;
+    color: white;
+    background-color: transparent;
+
+}
+.Gym-btn>:nth-child(2):hover{
+    border: none;
+    background-color: rgba(221, 5, 5, 0.88);
+}
+
+.blur-h{
+    width: 5rem;
+    height: 5rem;
+    left: 10%;
+    background-color:rgba(24, 23, 23, 0.88) ;
+    position: absolute;
+    border-radius: 50%;
+    /* z-index: -9; */
+    filter: blur(212px);
+}
+
+@media screen and (max-width:480px) {
+    .Gym-F{
+    
+        flex-direction: column;
+    }
+ .Gym-L{
+justify-content: center;
+        flex-direction: column;
+    }
+   
+    .best-add{
+    margin-left: 2rem;
+
+        transform: scale(.5);
+        /* display: none; */
+    }
+    .main-heading{
+        margin-top: -2rem;
+        margin-left: -3.6rem;
+        transform: scale(.6);
+    }
+
+    .Gym-para{
+        /* transform: scale(.4); */
+         /* margin-top: .2rem; */
+        text-align: center;
+        font-size: auto;
+        /* margin-left: .2rem;  */
+      
+    } 
+    .Gym-symbol{
+        transform: scale(.7);
+        margin-top: -4rem;
+        justify-content: center;
+        }
+        
+        .b1{
+            display: none;
+        }
+      
+.Symbol-1 span,.Symbol-2 span,.Symbol-3 span{
+            display: flex;
+            flex-direction: column;
+        }
+        .Gym-R{
+            padding: .1rem;
+               flex: 0;
+               flex-direction: column;
+            background-color:  rgb(92, 98, 98) ;
+           }
+           .Gym-btn{
+            margin-top: 2rem;
+            margin-left: 2rem;
+        } 
+        
+        .Gym-btn button{
+        margin-right: .1rem;
+            border-radius: 8px;
+            font-size: 1rem;
+            width: 8rem;
+        }
+}

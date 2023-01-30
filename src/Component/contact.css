@@ -1,0 +1,89 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.contact>:nth-child(1){
+   color: white;
+   font-size: 3rem;
+   font-family: 'Times New Roman', Times, serif;
+   /* align-items: center; */
+   text-align: center;
+}
+.contact>:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+    margin-left: 6rem;
+    justify-content: center;
+    text-align: center;
+}
+.contact form input{
+    width: 25rem;
+    color: white;
+    padding: 10px 10px ;
+    margin: 20px 20px ;
+    height: 2rem;
+    border: none;
+border-bottom: 2px solid white;
+outline: none;
+background-color: rgb(32, 32, 32);
+}
+[placeholder]:focus::-webkit-input-placeholder{
+    transition: text-indent .4s .4s ease;
+    text-indent: -100%;
+    opacity: 1;
+}
+ .submit-form{
+    width: 10rem;
+    height: 3rem;
+    margin: 20px;
+    background-color:  rgb(32, 32, 32);
+    color: white;
+    margin-left: 9rem;
+    /* justify-content: center; */
+    /* align-items: center; */
+    border:2px solid white;
+}
+.submit-form:hover{
+    background-color:  white;
+    color: rgb(32, 32, 32);
+    cursor: pointer;
+   
+}  
+@media screen and (max-width:768px){
+    .contact{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .contact>:nth-child(1){
+       font-size: 2rem;
+    }
+    .contact>:nth-child(2){
+        margin-left: 1rem;
+        justify-content: center;
+    }
+    .contact form input{
+        width: 15rem;
+        height: 1rem;
+        padding: 5px 5px ;
+        margin: 0px 0px ;
+        margin-top: 5px;
+    }
+  
+     .submit-form{
+        /* align-items: center; */
+        width: 6rem;
+        height: 2rem;
+    margin-left: 5rem;
+   
+
+        /* margin: 10px; */
+        /* align-items: center; */
+        /* justify-content: center; */
+        /* margin-left: 5rem; */
+    }
+}

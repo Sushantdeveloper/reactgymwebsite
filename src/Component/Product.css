@@ -1,0 +1,46 @@
+.prd-container{
+    /* margin: 5px; */
+    padding: 3rem,0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    /* grid-template-columns: repeat(auto-fit,minmax(15rem,1fr) );
+    grid-gap: 3rem; */
+    /* margin-left: 10px; */
+    /* column-gap: 2rem; */
+ }
+
+.item{
+    margin: 5px 6px;
+    width: 18rem;
+    height: 26rem;
+    border: 2px solid black;
+    /* animation: slide-up .5s ease 1; */
+}
+.img{
+    width: 15rem;
+    height: 18rem;
+    display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.detail{ 
+    display: flex; 
+     flex-direction: column;
+     text-align: center;
+background-color: rgb(228, 229, 231);
+
+     
+ }
+ .pname{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+    }
+    .price{
+        font-size: 20px;
+        font-weight: 200;
+     }  

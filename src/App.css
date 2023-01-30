@@ -1,18 +1,11 @@
 .App {
   text-align: center;
+  padding: 1rem;
+ 
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.applist{
+  background-color:  rgb(92, 98, 98);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,3 +29,5 @@
     transform: rotate(360deg);
   }
 }
+
+

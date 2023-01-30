@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/reactgymwebsite/static/css/main.1213a371.css",
+    "main.js": "/reactgymwebsite/static/js/main.81da872b.js",
+    "static/js/787.d20b7848.chunk.js": "/reactgymwebsite/static/js/787.d20b7848.chunk.js",
+    "static/media/gym1.jpg": "/reactgymwebsite/static/media/gym1.ef35f8be77057b5da9e5.jpg",
+    "static/media/Logo2.jpg": "/reactgymwebsite/static/media/Logo2.bb4537e30d7b63805f87.jpg",
+    "static/media/gym2.jpg": "/reactgymwebsite/static/media/gym2.d8193ce3dae088a12fbf.jpg",
+    "static/media/twiter.png": "/reactgymwebsite/static/media/twiter.89d4a3b71f7ba90a3af9.png",
+    "static/media/Logo.png": "/reactgymwebsite/static/media/Logo.66a3d8b964711f37a0c3.png",
+    "static/media/Instagram_icon.webp": "/reactgymwebsite/static/media/Instagram_icon.c69311518eb023cd42b1.webp",
+    "static/media/fb.webp": "/reactgymwebsite/static/media/fb.bceda057f62ace023a5c.webp",
+    "static/media/GYM.jfif": "/reactgymwebsite/static/media/GYM.82b2b1425536c1d00a98.jfif",
+    "static/media/calories.webp": "/reactgymwebsite/static/media/calories.22649eb0bb5091af3cbd.webp",
+    "index.html": "/reactgymwebsite/index.html",
+    "static/media/fire.svg": "/reactgymwebsite/static/media/fire.478f1d9fd2f7461f57da59fbab2d778f.svg",
+    "static/media/arrow-right-long.svg": "/reactgymwebsite/static/media/arrow-right-long.50b5f3685d4f31bfa8ee19b263fc7647.svg",
+    "static/media/check.svg": "/reactgymwebsite/static/media/check.009927034827a9a8429f074e0b494206.svg",
+    "static/media/angle-left.svg": "/reactgymwebsite/static/media/angle-left.7f5e4b0940ff7d4244d77d41f8292318.svg",
+    "static/media/angle-right.svg": "/reactgymwebsite/static/media/angle-right.cffccc40ded4422f23176efd1ee23ce9.svg",
+    "main.1213a371.css.map": "/reactgymwebsite/static/css/main.1213a371.css.map",
+    "main.81da872b.js.map": "/reactgymwebsite/static/js/main.81da872b.js.map",
+    "787.d20b7848.chunk.js.map": "/reactgymwebsite/static/js/787.d20b7848.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1213a371.css",
+    "static/js/main.81da872b.js"
+  ]
+}

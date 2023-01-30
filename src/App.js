@@ -1,6 +1,5 @@
 
 import './App.css';
-import GymFirst from './Component/GymFirst';
 import GymSecond from './Component/GymSecond';
 import Third from './Component/Third';
 import Plans from './Component/Plans';
